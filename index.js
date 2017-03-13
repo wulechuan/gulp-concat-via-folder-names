@@ -1,9 +1,9 @@
-module.exports = evaluateGroupConcateOptionsViaFolders;
+module.exports = evaluateFileGroupsViaFolders;
 
-function evaluateGroupConcateOptionsViaFolders(options) {
+function evaluateFileGroupsViaFolders(options) {
     const moduleCaption = 'folders-as-a-module';
     const moduleCaption2 = moduleCaption + ': ';
-    const defaultFolderMatchingPattern = 'merge-into=*';
+    const defaultFolderMatchingPattern = 'concat-into=*';
 
 
     const getFlattenArray = require('array-flatten');
@@ -11,7 +11,7 @@ function evaluateGroupConcateOptionsViaFolders(options) {
     const getFileBaseNameFrom = pathTool.basename;
 
 
-    // const logger = require('colorful-logger');
+    const logger = require('@wulechuan/colorful-log');
     const formatJSON = logger.formatJSON;
 
     const colorfulLog = logger.log;
