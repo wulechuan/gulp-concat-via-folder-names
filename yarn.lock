@@ -2,12 +2,6 @@
 # yarn lockfile v1
 
 
-"@wulechuan/colorful-log@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@wulechuan/colorful-log/-/colorful-log-0.0.3.tgz#b8819d574e81bc5a33facb1591abf9dbe6f9cbe1"
-  dependencies:
-    chalk "^1.1.3"
-
 "@wulechuan/group-files-via-folder-names@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@wulechuan/group-files-via-folder-names/-/group-files-via-folder-names-0.0.3.tgz#2b11b002b10755125c023d1174bf8ddd1c57900c"
