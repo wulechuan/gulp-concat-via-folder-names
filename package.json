@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/wulechuan/gulp-concat-via-folder-names#readme",
   "devDependencies": {
-    "@wulechuan/colorful-log": "^0.0.3"
+    "@wulechuan/colorful-log": "^0.0.3",
+    "@wulechuan/group-files-via-folder-names": "^0.0.3"
   }
 }
