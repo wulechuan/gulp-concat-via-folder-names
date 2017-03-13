@@ -1,0 +1,25 @@
+{
+  "name": "@wulechuan/gulp-concat-via-folder-names",
+  "version": "0.0.1",
+  "description": "Concatenate files under folders that are using special folder name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wulechuan/gulp-concat-via-folder-names.git"
+  },
+  "keywords": [
+    "gulp",
+    "concatenate",
+    "folder",
+    "traversal"
+  ],
+  "author": "wulechuan@live.com",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/wulechuan/gulp-concat-via-folder-names/issues"
+  },
+  "homepage": "https://github.com/wulechuan/gulp-concat-via-folder-names#readme"
+}
